@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BookTalk</string>
+    <string name="write_post">독서 토론 시작하기</string>
+    <string name="save_post">토론 등록</string>
+    <string name="post_title_hint">토론 주제</string>
+    <string name="post_content_hint">토론 내용을 작성해주세요</string>
+    
+    <!-- 독서 토론 관련 추가 문자열 -->
+    <string name="book_title_hint">책 제목</string>
+    <string name="book_author_hint">작가</string>
+    <string name="book_genre_hint">장르</string>
+    <string name="reading_status_hint">독서 진행 상황</string>
+    <string name="discussion_topic_hint">토론 주제</string>
+    <string name="book_info">도서 정보</string>
+    <string name="discussion_content">토론 내용</string>
+    <string name="join_discussion">토론 참여</string>
+    <string name="book_discussion">독서 토론</string>
+    <string name="reading_progress">독서 진행률</string>
+    <string name="genre_fiction">소설</string>
+    <string name="genre_essay">에세이</string>
+    <string name="genre_humanities">인문학</string>
+    <string name="genre_science">과학</string>
+    <string name="genre_self_help">자기계발</string>
+    <string name="genre_other">기타</string>
+    <string name="status_reading">읽는 중</string>
+    <string name="status_finished">완독</string>
+    <string name="status_want_to_read">읽고 싶은 책</string>
+</resources>

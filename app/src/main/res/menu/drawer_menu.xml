@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu"
+            android:title="홈" />
+    </group>
+
+    <item android:title="계정">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person"
+                android:title="내 프로필" />
+            
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_back"
+                android:title="로그아웃" />
+        </menu>
+    </item>
+
+    <item android:title="정보">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="앱 정보" />
+        </menu>
+    </item>
+
+</menu> 

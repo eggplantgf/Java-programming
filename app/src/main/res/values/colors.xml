@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 메인 색상 - 차분한 책 테마 -->
+    <color name="colorPrimary">#2E3440</color>
+    <color name="colorPrimaryDark">#2E3440</color>
+    <color name="colorAccent">#D08770</color>
+    
+    <!-- 배경 색상 -->
+    <color name="colorBackground">#ECEFF4</color>
+    <color name="cardBackground">#FFFFFF</color>
+    
+    <!-- 텍스트 색상 -->
+    <color name="textColorPrimary">#2E3440</color>
+    <color name="textColorSecondary">#4C566A</color>
+    <color name="textColorAccent">#5E81AC</color>
+    
+    <!-- 독서 토론 전용 색상 -->
+    <color name="bookGenreColor">#A3BE8C</color>
+    <color name="readingStatusColor">#B48EAD</color>
+    <color name="discussionColor">#88C0D0</color>
+    
+    <!-- 상태 색상 -->
+    <color name="successColor">#A3BE8C</color>
+    <color name="warningColor">#EBCB8B</color>
+    <color name="errorColor">#BF616A</color>
+    
+    <!-- 그라데이션 색상 -->
+    <color name="gradientStart">#5E81AC</color>
+    <color name="gradientEnd">#81A1C1</color>
+    
+    <!-- 기존 호환성을 위한 색상 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#2E3440</color>
+    <color name="lightGray">#D8DEE9</color>
+    <color name="darkGray">#4C566A</color>
+</resources>

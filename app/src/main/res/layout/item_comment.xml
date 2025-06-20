@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@color/cardBackground"
+    android:layout_margin="6dp"
+    android:elevation="2dp">
+
+    <!-- User Icon -->
+    <ImageView
+        android:id="@+id/comment_user_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_person"
+        android:layout_gravity="top"
+        android:contentDescription="User Icon"
+        android:layout_marginTop="4dp" />
+
+    <!-- Comment Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <!-- User Info and Date -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="4dp">
+
+            <!-- User ID -->
+            <TextView
+                android:id="@+id/comment_user_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="UserID"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="@color/textColorPrimary" />
+
+            <!-- Comment Date -->
+            <TextView
+                android:id="@+id/comment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024.01.01"
+                android:textSize="12sp"
+                android:textColor="@color/textColorSecondary" />
+        </LinearLayout>
+
+        <!-- Comment Content -->
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="댓글 내용..."
+            android:textSize="14sp"
+            android:textColor="@color/textColorPrimary"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Comment Actions -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <!-- Like Button (for future enhancement) -->
+            <TextView
+                android:id="@+id/comment_like_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👍 좋아요"
+                android:textSize="12sp"
+                android:textColor="@color/textColorSecondary"
+                android:padding="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:visibility="gone" />
+
+            <!-- Reply Button (for future enhancement) -->
+            <TextView
+                android:id="@+id/comment_reply_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💬 답글"
+                android:textSize="12sp"
+                android:textColor="@color/textColorSecondary"
+                android:padding="4dp"
+                android:layout_marginStart="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp">
+
+        <ImageButton
+            android:id="@+id/edit_comment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            android:contentDescription="Edit Comment"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/delete_comment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:contentDescription="Delete Comment"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
